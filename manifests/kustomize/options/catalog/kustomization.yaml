@@ -3,10 +3,6 @@ kind: Kustomization
 
 namePrefix: model-catalog-
 
-resources:
-- deployment.yaml
-- service.yaml
-
 configMapGenerator:
 - name: sources
   options:
